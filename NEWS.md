@@ -17,6 +17,8 @@
 
 * `select_if()` and `rename_if()` handle logical vector predicate (#4213). 
 
+* `bind_rows()` aborts if `.id` is a column name (#4230). 
+
 # dplyr 0.8.0.1 (2019-02-15)
 
 * Fixed integer C/C++ division, forced released by CRAN (#4185). 
